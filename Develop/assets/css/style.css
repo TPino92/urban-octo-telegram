@@ -3,11 +3,35 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-    background-color: #d9dcd6;
+/*Communal Start*/
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Communal End*/
+
+/*Header Start*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,17 +64,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/*Header End*/
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+/*Body Start*/
+body {
+    background-color: #d9dcd6;
 }
+/*Body End*/ 
 
-p {
-    font-size: 16px;
-}
-
-.hero {
+ /*Hero Start*/
+ .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,23 +81,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+ /*Hero End*/
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+ /*Benefits Start*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,26 +142,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*Benefits End*/
 
+/*Search Engine Optimization Start*/
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -165,28 +158,51 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+/*Search Engine Optimization End*/
+
+/*Online Reputation Management Start*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*Online Reputation Management End*/
+
+/*Social Media Marketing Start*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*Social Media Marketing End*/
 
 .footer {
     padding: 30px;
